@@ -1,0 +1,20 @@
+poetry.lock
+pyproject.toml
+# Ignore virtual environment
+venv/
+.venv/
+.env/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore Poetry files
+*.lock
+.poetry/
+
+# Ignore other files
+.DS_Store
+*.log
